@@ -13,6 +13,6 @@ project folder
 
 https://github.com/Vabbajack-Sandvich/vabbajacksandvich-vs-code-bk/tree/main/zAspect
 
-compiled exe
+compiled exe and files
 
-https://github.com/Vabbajack-Sandvich/vabbajacksandvich-vs-code-bk/tree/main/zAspect/zAspect/bin/Release/net8.0-windows/publish
+https://github.com/Vabbajack-Sandvich/vabbajacksandvich-vs-code-bk/blob/main/zAspect/zAspect/bin/Release/net8.0-windows/zAspect-2026-06-03-04-15-32-AM.rar
