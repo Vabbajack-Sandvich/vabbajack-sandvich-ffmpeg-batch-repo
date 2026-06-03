@@ -5,3 +5,9 @@ it uses c:\vc by default
 
 c:\vc
 
+this tool i wrote makes it easy to shrink files using just the aspect ratio
+
+zAspect
+
+https://github.com/Vabbajack-Sandvich/vabbajacksandvich-vs-code-bk/tree/main/zAspect
+
