@@ -31,7 +31,7 @@ c:\vc
 this tool i wrote makes it easy to shrink files using just the aspect ratio
 
 
-zAspect
+# zAspect
 
 
 project folder
