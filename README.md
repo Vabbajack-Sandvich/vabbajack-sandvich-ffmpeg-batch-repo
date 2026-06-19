@@ -6,6 +6,8 @@ With c:\ open you can click a batch file with a long name and hit f2 to activate
 
 Makes it easy to copy and paste long batch file names and run them from c:\ from anywhere with c:\ before right clicking. That way it will always execute the batchfile when you hit the up arrow key to re-use the command if you have to.
 
+# Easy Cut
+
 2026-06-08-13-19-59-PM
 
 Generates Ffmpeg commands to be used with these batch files.
