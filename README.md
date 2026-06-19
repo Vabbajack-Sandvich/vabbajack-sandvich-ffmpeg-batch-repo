@@ -2,9 +2,9 @@
 
 2026-06-19-13-27-03-PM
 
-Using f2 c:\ drive and right click in the admin cmd and putting c:\ in front of the batch name before you right click.
+With c:\ open you can click a batch file with a long name and hit f2 to activate the rename thing then select all, copy, then type c:\ and right click to paste the file name in the admin cmd prompt.
 
-Makes it easy to copy and paste long batch file names and run them from c:\ from anywhere with c:\ before right clicking.
+Makes it easy to copy and paste long batch file names and run them from c:\ from anywhere with c:\ before right clicking. That way it will always execute the batchfile when you hit the up arrow key to re-use the command if you have to.
 
 2026-06-08-13-19-59-PM
 
