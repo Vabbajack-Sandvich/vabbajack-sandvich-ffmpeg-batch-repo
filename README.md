@@ -1,5 +1,11 @@
 # Note: Easy Cut, plugin for VLC:
 
+2026-06-19-13-27-03-PM
+
+Using f2 c:\ drive and right click in the admin cmd and putting c:\ in front of the batch name before you right click.
+
+Makes it easy to copy and paste long batch file names and run them from c:\ from anywhere with c:\ before right clicking.
+
 2026-06-08-13-19-59-PM
 
 Generates Ffmpeg commands to be used with these batch files.
