@@ -20,6 +20,6 @@ rem 676 will not
 
 for %%f in (*.mp4) do (
 
-ffmpeg -y -i "%%f" -c:v libx264 -bf 10 -b:v 1m -crf 30 -preset fast -vf scale=1100:620 -r 30 "%%~nf_shrunk%%~xf"
+ffmpeg -y -i "%%f" -c:v libx264 -bf 10 -b:v 500k -crf 30 -preset fast -vf scale=500:890 -r 30 "%%~nf_shrunk%%~xf"
 
 )
