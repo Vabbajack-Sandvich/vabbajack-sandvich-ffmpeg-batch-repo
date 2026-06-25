@@ -73,6 +73,7 @@ set mydate=%mydateformat:/=-%
 echo %mydate%
 set mytime=%time::=%
 set mytimestamp=%mydate: =_%_%mytime:.=_%
+set mytimestamp=%mytimestamp: =%
 
 rem simpler way to get file count
 rem and for specific extentions
