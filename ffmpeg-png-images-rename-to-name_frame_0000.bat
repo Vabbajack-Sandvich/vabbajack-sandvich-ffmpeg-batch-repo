@@ -65,6 +65,15 @@ rem )
 
 rem goto endofloop
 
+rem switching over to just time stamping the output file name
+
+set mydateformat=%date:~10,4%%date:~6,3%/%date:~4,2%
+echo %mydateformat%
+set mydate=%mydateformat:/=-%
+echo %mydate%
+set mytime=%time::=%
+set mytimestamp=%mydate: =_%_%mytime:.=_%
+
 rem simpler way to get file count
 rem and for specific extentions
 for %%f in (*.png) do (
@@ -84,7 +93,7 @@ for %%f in (*.png) do (
 	rem greater or equal than 1000
 	rem #_frame_####.png
 	if !file_count! geq 1000 (
-		set "filename=!file_count!_frame_!file_count!.png"
+		set "filename=!mytimestamp!_frame_!file_count!.png"
 		echo "!filename!"
 		echo "renaming %%f to !filename!"
 	)
@@ -92,7 +101,7 @@ for %%f in (*.png) do (
 	rem less than 999
 	rem #_frame_0###.png
 	if !file_count! lss 999 (
-		set "filename=!file_count!_frame_0!file_count!.png"
+		set "filename=!mytimestamp!_frame_0!file_count!.png"
 		echo "!filename!"
 		echo "renaming %%f to !filename!"
 	)
@@ -100,7 +109,7 @@ for %%f in (*.png) do (
 	rem less than 99
 	rem #_frame_00##.png
 	if !file_count! lss 99 (
-		set "filename=!file_count!_frame_00!file_count!.png"
+		set "filename=!mytimestamp!_frame_00!file_count!.png"
 		echo "!filename!"
 		echo "renaming %%f to !filename!"
 	)
@@ -108,7 +117,7 @@ for %%f in (*.png) do (
 	rem less than 9
 	rem #_frame_000#.png
 	if !file_count! leq 9 (
-		set "filename=!file_count!_frame_000!file_count!.png"
+		set "filename=!mytimestamp!_frame_000!file_count!.png"
 		echo "!filename!"
 		echo "renaming %%f to !filename!"
 	)
