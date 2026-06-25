@@ -5,8 +5,6 @@ rem png
 
 cd C:\vc
 
-rem then converts the mp4 to the slower version
-for %%f in (*.mp4) do (
 
 rem specific frame
 rem ffmpeg -i input.mp4 -vf "fps=1" frame_%04d.png
@@ -24,6 +22,14 @@ rem ffmpeg -y -i "%%f" -c:v libx264 -crf 30 -preset ultrafast -r 30 -filter_comp
 
 rem testing
 rem ffmpeg -y -i "Shnitzel.mp4" -vsync passthrough "frame_%04d.png"
+
+rem 2026-06-25-04-51-50-AM
+rem note: not sure why this doesnt
+rem need double percents on %04d
+rem it might? if it screws up
+rem thats probably why
+
+for %%f in (*.mp4) do (
 
 ffmpeg -y -i "%%f" -vsync passthrough "%%nf_frame_%04d.png"
 
