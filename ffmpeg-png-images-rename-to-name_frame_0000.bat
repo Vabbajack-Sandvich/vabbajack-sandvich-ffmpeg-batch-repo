@@ -15,9 +15,13 @@ rem ffmpeg-mp4-extract-each-frame-vsync.bat
 rem mp4 frame dump batch outputs
 rem that anyway
 
+rem moves then renames the files
+rem to prevent loop conflicts
+
 @echo off
 
 mkdir C:\vc\i
+mkdir C:\vc\i\t
 
 cd c:\vc\i
 
@@ -77,6 +81,8 @@ set mytimestamp=%mytimestamp: =%
 
 rem simpler way to get file count
 rem and for specific extentions
+set /a file_count=0
+
 for %%f in (*.png) do (
     set /a file_count+=1
     echo "Found file: %%f"
@@ -101,7 +107,7 @@ for %%f in (*.png) do (
 
 	rem less than 999
 	rem #_frame_0###.png
-	if !file_count! lss 999 (
+	if !file_count! leq 999 (
 		set "filename=!mytimestamp!_frame_0!file_count!.png"
 		echo "!filename!"
 		echo "renaming %%f to !filename!"
@@ -109,7 +115,7 @@ for %%f in (*.png) do (
 
 	rem less than 99
 	rem #_frame_00##.png
-	if !file_count! lss 99 (
+	if !file_count! leq 99 (
 		set "filename=!mytimestamp!_frame_00!file_count!.png"
 		echo "!filename!"
 		echo "renaming %%f to !filename!"
@@ -125,9 +131,26 @@ for %%f in (*.png) do (
 
 	rem put rename thing here
 	ren "%%f" "!filename!"
+	move /y "!filename!" "c:\vc\i\t"
+	set "filename="
+
 )
+
+cd c:\vc\i\t
+
+rem move back afterward
+for %%f in (*.png) do (
+echo "moving file back to c:\vc\i - %%f"
+move /y "%%f" "c:\vc\i"
+)
+
+cd c:\vc\i
 
 :endofloop
 echo "end of loop"
 rem clear variable
-set "file_count="
+set /a "file_count=0"
+set "mytimestamp="
+set "filename="
+
+endlocal
