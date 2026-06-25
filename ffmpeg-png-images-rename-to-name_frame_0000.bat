@@ -15,7 +15,7 @@ rem ffmpeg-mp4-extract-each-frame-vsync.bat
 rem mp4 frame dump batch outputs
 rem that anyway
 
-rem moves then renames the files
+rem renames then moves the files
 rem to prevent loop conflicts
 
 @echo off
