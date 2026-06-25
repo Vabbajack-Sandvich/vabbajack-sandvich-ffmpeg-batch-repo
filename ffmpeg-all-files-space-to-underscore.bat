@@ -10,8 +10,8 @@ setlocal enabledelayedexpansion
 for %%f in ("*.*") do (
 set filename=%%f
 echo !filename!
-set filename2=!filename: =_!
-echo !filename2!
-ren "%%f" "!filename2!"
+set filename=!filename: =_!
+echo !filename!
+ren "%%f" "!filename!"
 
 )
