@@ -1,14 +1,14 @@
-rem =============================================================================
+rem ==================================================
 rem 2026-06-26-02-21-37-AM
-rem =============================================================================
-rem =============================================================================
-rem 						TLDR
-rem					  just change the gain section
-rem 				easiest way is to click and hold
-rem 				the winamp eq slider and look at
-rem 					   the main window
-rem =============================================================================
-rem =============================================================================
+rem ==================================================
+rem ==================================================
+rem 		TLDR
+rem	  just change the gain section
+rem easiest way is to click and hold
+rem the winamp eq slider and look at
+rem 	   the main window
+rem ==================================================
+rem ==================================================
 
 rem @echo off
 @echo no
@@ -132,11 +132,12 @@ rem The width value matching your chosen width_type
 rem g=gain1
 rem The volume gain or reduction in dB
 
+rem ==================================================
 rem default
-rem =============================================================================
+rem ==================================================
 rem filter complex mode default
 rem faster and all at once instead of individually
-rem =============================================================================
+rem ==================================================
 rem complex filter break down
 rem for copy and paste modifications for
 rem other revisions
@@ -155,9 +156,10 @@ rem means you only have to change
 rem those values at the top
 rem if you want the eq to be different
 rem in different eq variations
-rem =============================================================================
-rem 			multi line break down
-rem =============================================================================
+rem ==================================================
+rem ==================================================
+rem multi line break down
+rem ==================================================
 rem winamp high and low gain
 rem +12dB and -12dB
 rem mid would be 6dB
@@ -167,7 +169,8 @@ rem with nocomma at the end before [aout]
 rem each individual seperator is on its own line
 rem for easy reassembly using find replace \r\n nothing
 rem and copy and pasting etc for eq file variations
-rem 
+rem ==================================================
+rem ==================================================
 rem ffmpeg -i -y "%%f"
 rem -filter_complex "
 rem [0:a] equalizer=f=!base1!:width_type=!widthtype1!:w=!width1!:g=!gain1!,
@@ -187,27 +190,25 @@ rem -map "
 rem 0:v"
 rem "
 rem %%~nf_winamp-eq-highbass-verylow320-midhigh-dip-highhigh.mp3"
-rem 
-rem 
-rem =============================================================================
-rem =============================================================================
+rem ==================================================
+rem ==================================================
 rem 2026-06-26-01-46-54-AM
 rem default complex filter copy and paste
-rem =============================================================================
+rem ==================================================
 rem default single line
-rem =============================================================================
+rem ==================================================
 rem ffmpeg -y -i "%%f" -filter_complex "[0:a]equalizer=f=!base1!:width_type=!widthtype1!:w=!width1!:g=!gain1!,equalizer=f=!base2!:width_type=!widthtype2!:w=!width2!:g=!gain2!,equalizer=f=!base3!:width_type=!widthtype3!:w=!width3!:g=!gain3!,equalizer=f=!base4!:width_type=!widthtype4!:w=!width4!:g=!gain4!,equalizer=f=!base5!:width_type=!widthtype5!:w=!width5!:g=!gain5!,equalizer=f=!base6!:width_type=!widthtype6!:w=!width6!:g=!gain6!,equalizer=f=!base7!:width_type=!widthtype7!:w=!width7!:g=!gain7!,equalizer=f=!base8!:width_type=!widthtype8!:w=!width8!:g=!gain8!,equalizer=f=!base9!:width_type=!widthtype9!:w=!width9!:g=!gain9!,equalizer=f=!base10!:width_type=!widthtype10!:w=!width10!:g=!gain10![aout]" -map "[aout]" "%%~nf_winamp-eq-highbass-verylow320-midhigh-dip-highhigh.mp3"
-rem =============================================================================
-rem =============================================================================
-rem 							2026-06-26-02-13-15-AM
-rem =============================================================================
-rem 							got bored
-rem 							doctor?!
-rem 							are you sure this will...
-rem 							*explodes*
-rem 							work....
-rem 							i guess is no then
-rem =============================================================================
+rem ==================================================
+rem ==================================================
+rem 2026-06-26-02-13-15-AM
+rem ==================================================
+rem got bored
+rem doctor?!
+rem are you sure this will...
+rem *explodes*
+rem work....
+rem i guess is no then
+rem ==================================================
 rem                             .+######+-                                   
 rem                          .+############+                                 
 rem                         +################-                               
@@ -236,22 +237,22 @@ rem     -+-......-+#####+-----++##++++--------+--+++++-----------------------
 rem     .---..-++-#####++--.---++###+++++++----++++++------------------------
 rem      ..--+++++#+++++---.----++####+++++++++++++++------------------------
 rem     .--+++++--....-+###+--.--++#####++++++++++++#+----+------------------
-rem =============================================================================
-rem 							why are you like this?
-rem 							I HAVE NO IDEA!!
-rem								kind of looks like one
-rem 							of the strogg
-rem 							"i require stroyent"
-rem =============================================================================
+rem ==================================================
+rem why are you like this?
+rem I HAVE NO IDEA!!
+rem kind of looks like one
+rem of the strogg
+rem "i require stroyent"
+rem ==================================================
 rem 2026-06-26-02-56-29-AM
 rem default single line
 rem ffmpeg -y -i "%%f" -filter_complex "[0:a]equalizer=f=!base1!:width_type=!widthtype1!:w=!width1!:g=!gain1!,equalizer=f=!base2!:width_type=!widthtype2!:w=!width2!:g=!gain2!,equalizer=f=!base3!:width_type=!widthtype3!:w=!width3!:g=!gain3!,equalizer=f=!base4!:width_type=!widthtype4!:w=!width4!:g=!gain4!,equalizer=f=!base5!:width_type=!widthtype5!:w=!width5!:g=!gain5!,equalizer=f=!base6!:width_type=!widthtype6!:w=!width6!:g=!gain6!,equalizer=f=!base7!:width_type=!widthtype7!:w=!width7!:g=!gain7!,equalizer=f=!base8!:width_type=!widthtype8!:w=!width8!:g=!gain8!,equalizer=f=!base9!:width_type=!widthtype9!:w=!width9!:g=!gain9!,equalizer=f=!base10!:width_type=!widthtype10!:w=!width10!:g=!gain10![aout]" -map "[aout]" "%%~nf_winamp-eq-highbass-verylow320-midhigh-dip-highhigh.mp3"
-rem =============================================================================
+rem ==================================================
 rem 2026-06-26-03-06-52-AM
 rem woo! hoo!
 rem its alive!! ITS AAAALLIIIVVEE!!
 rem finally got this working
-rem =============================================================================
+rem ==================================================
 
 for %%f in (*.mp3) do (
 
