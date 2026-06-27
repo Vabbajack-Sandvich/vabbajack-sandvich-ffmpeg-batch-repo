@@ -4,6 +4,8 @@ rem space to underscore
 cd c:\vc
 rem cd c:\vc\t
 
+@echo off
+
 rem !variable:search=replace!
 setlocal enabledelayedexpansion
 

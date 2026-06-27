@@ -20,6 +20,11 @@ rem 676 will not
 
 for %%f in (*.mp4) do (
 
-ffmpeg -y -i "%%f" -c:v libx264 -bf 10 -b:v 500k -crf 30 -preset fast -vf scale=500:890 -r 30 "%%~nf_shrunk%%~xf"
+rem ffmpeg -y -i "%%f" -c:v libx264 -bf 10 -b:v 2M -crf 30 -preset fast -vf scale=500:890 -r 30 "%%~nf_shrunk%%~xf"
+rem basically run the video through the same thing
+rem but with the ffmpeg codec for 1920 1080
+rem and 10 bframe if it will accept that
+rem ffmpeg -y -i "%%f" -c:v libx264 -bf 10 -b:v 2M -crf 20 -preset fast -vf scale=1920:1080 -r 60 "%%~nf_shrunk%%~xf"
+ffmpeg -y -i "%%f" -c:v libx264 -bf 10 -b:v 2M -crf 20 -preset fast -vf scale=1920:1080 -r 60 "%%~nf_shrunk%%~xf"
 
 )
