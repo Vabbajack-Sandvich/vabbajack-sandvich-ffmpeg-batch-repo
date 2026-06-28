@@ -13,7 +13,20 @@ setlocal enabledelayedexpansion
 
 rem default
 rem set "pic=C:\vc\image.png"
-set "pic=C:\vc\music-remix-zonide-quake-ii-soundtrack-0.png"
+rem set "pic=C:\vc\music-remix-zonide-quake-ii-soundtrack-0.png"
+rem set "pic=music-remix-zonide-marilyn-manson-antichrist-superstar-full-album-1996-text-0.png"
+rem set "pic=in-this-moment-sex-metal-barbie-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-6db-0.png"
+
+rem copy paste
+rem set "pic="
+set "pic=leo-moracchioli-stressed-out-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db-0.png"
+rem set "pic=leo-moracchioli-take-me-to-church-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db.png"
+rem set "pic=hellyeah-moth-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db.png"
+rem set "pic=funny-eddie-lawerence-the-old-philosopher-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db-2-6db-0.png"
+rem set "pic=algal-the-bard-system-of-a-down-aerials-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db-0.png"
+rem set "pic=meri-amber-gods-2-6db-2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db-0.png"
+rem set "pic=in-this-moment-big-bad-wolf-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-6db-6db-0.png"
+rem set "pic=harp-twins-my-immortal-evanescence-end-edit-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-6db-6db-0.png"
 
 cd C:\vc
 

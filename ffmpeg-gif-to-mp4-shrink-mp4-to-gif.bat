@@ -23,7 +23,7 @@ timeout /t 2 /nobreak
 rem ffmpeg -y -i "%%~nf_conv.mp4" -c:v libx264 -b:v 500k -crf 30 -preset fast -vf scale=240:427 -r 24 "%%~nf_shrunk.mp4"
 rem to shrink
 rem use zaspect to reduce the resolution
-ffmpeg -y -i "%%~nf_conv.mp4" -c:v libx264 -b:v 500k -crf 25 -preset fast -vf scale=1422:800 -r 30 "%%~nf_shrunk.mp4"
+ffmpeg -y -i "%%~nf_conv.mp4" -c:v libx264 -b:v 500k -crf 25 -preset fast -vf scale=380:674 -r 30 "%%~nf_shrunk.mp4"
 timeout /t 2 /nobreak
 ffmpeg -i "%%~nf_shrunk.mp4" "%%~nf_conv.gif"
 timeout /t 2 /nobreak
