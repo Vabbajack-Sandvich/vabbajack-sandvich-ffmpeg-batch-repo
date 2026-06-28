@@ -1,5 +1,9 @@
 # vabbajack-sandvich-ffmpeg-batch-repo:
 
+Download Ffmpeg Batch Zip:
+
+https://github.com/Vabbajack-Sandvich/vabbajacksandvich-vs-code-bk/blob/3b56a0aa00863405bf75216d646074d1285d71db/batch-bk/vabbajack-sandvich-ffmpeg-batch-2026-06-28-15-56-01-PM.zip#L2
+
 This is a collection of batch files i wrote to make doing various things with Ffmpeg easy.
 
 It uses c:\vc by default.
