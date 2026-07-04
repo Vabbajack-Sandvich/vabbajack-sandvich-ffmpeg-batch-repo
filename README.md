@@ -69,13 +69,13 @@ https://github.com/Vabbajack-Sandvich/Easy-Cut
 
 # zAspect:
 
-this tool i wrote makes it easy to shrink files using just the aspect ratio
+This tool i wrote makes it easy to shrink files using just the aspect ratio
 
-project folder:
+Project Folder:
 
 https://github.com/Vabbajack-Sandvich/vabbajacksandvich-vs-code-bk/tree/main/zAspect
 
-compiled exe and files:
+Compiled Exes and Files:
 
 https://github.com/Vabbajack-Sandvich/vabbajacksandvich-vs-code-bk/blob/main/zAspect/zAspect/bin/Release/net8.0-windows/zAspect-2026-06-03-04-15-32-AM.rar
 
