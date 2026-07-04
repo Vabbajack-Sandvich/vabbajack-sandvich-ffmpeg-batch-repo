@@ -14,12 +14,6 @@ rem that you have to change manually
 rem this makes executing commmands on
 rem just a specific file list search
 
-rem 2026-06-30-05-26-00-AM
-rem just tested multi wild card
-rem it works
-rem *bare*-2
-rem results in zfilelist.txt containing:
-
 @echo off
 
 setlocal EnableDelayedExpansion
@@ -31,9 +25,7 @@ set "zsrcpath=C:\zonide\non-zip\music\"
 echo "zsrcpath !zsrcpath!"
 set "zfile=zfilelist.txt"
 echo "zfile !zfile!"
-rem set "zdestpath=C:\zonide\non-zip\music\"
-rem C:\zonide\non-zip\2
-set "zdestpath=C:\zonide\non-zip\2\"
+set "zdestpath=C:\zonide\non-zip\music\"
 echo "zdestpath !zdestpath!"
 set "zsrcfilepath=!zsrcpath!!zfile!"
 echo "zsrcfilepath !zsrcfilepath!"

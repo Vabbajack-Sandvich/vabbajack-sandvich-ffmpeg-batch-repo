@@ -19,16 +19,7 @@ rem set "pic=in-this-moment-sex-metal-barbie-2-6db_2thirdslowerpitchspeed_winamp
 
 rem copy paste
 rem set "pic="
-set "pic=marilyn-manson-antichrist-superstar-full-album-second-pass_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-thirdpass-0.png"
-rem set "pic=filter-the-crystal-method-trip-like-i-do-remix-2-6db-2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-6db-2nd.png"
-rem set "pic=filter-the-crystal-method-trip-like-i-do-remix-2-6db-2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-6db.png"
-rem set "pic=apc-passive-0.png"
-rem set "pic=gnufuzz-Whisper-To-Me-Louise-2-6db-2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-6db-0.png"
-rem set "pic=clutch-electric-worry-2-6db-2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db.png"
-rem set "pic=A-Perfect-Circle-Weak-And-Powerless-2-6db-2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db.png"
-rem set "pic=Pet-2-6db-2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-6db-0.png"
-rem set "pic=marilyn-manson-antichrist-superstar-full-album-second-pass_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-secondpass-0.png"
-rem set "pic=leo-moracchioli-stressed-out-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db-0.png"
+set "pic=leo-moracchioli-stressed-out-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db-0.png"
 rem set "pic=leo-moracchioli-take-me-to-church-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db.png"
 rem set "pic=hellyeah-moth-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db.png"
 rem set "pic=funny-eddie-lawerence-the-old-philosopher-2-6db_2thirdslowerpitchspeed_winamp-eq-highbass-verylow320-midhigh-dip-highhigh-2-12db-2-6db-0.png"
