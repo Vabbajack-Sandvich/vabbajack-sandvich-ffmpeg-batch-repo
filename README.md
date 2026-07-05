@@ -1,3 +1,7 @@
+# Disclaimer:
+
+If you use this you agree that any potential damages are not my responsiblity.
+
 # vabbajack-sandvich-ffmpeg-batch-repo:
 
 Download Ffmpeg Batch Zip:
