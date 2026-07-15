@@ -20,7 +20,9 @@ setlocal EnableDelayedExpansion
 @rem set "zsrcpath=C:\vc"
 
 @rem set "zsrcpath=C:\vc\"
-set "zsrcpath=C:\zonide\non-zip\music\"
+@rem set "zsrcpath=C:\zonide\non-zip\music\"
+set "zsrcpath=C:\zonide\non-zip\2\"
+
 echo "zsrcpath - !zsrcpath!"
 @rem ================================================
 @rem ================================================
