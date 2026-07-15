@@ -37,7 +37,12 @@ cd !zsrcpath!
 md !zdestpath!
 
 for %%f in (*.mp3) do (
-ffmpeg -y -i "%%f" -map_metadata -1 -c copy "%%~nf-md.mp3"
+@rem tyring to use the lame encoder to make sure it converts
+@rem in case it still uses the aac stream from mp4
+@rem from previous conversions without the updated
+@rem mp4 to mp3 with lame encoder
+@rem ffmpeg -y -i "%%f" -map_metadata -1 -c copy "%%~nf-md.mp3"
+ffmpeg -y -i "%%f" -map_metadata -1 -vn -c:a libmp3lame "%%~nf-md.mp3"
 timeout /t 1 /nobreak
 @rem move stripped suffixed file to temp
 echo "moving - %%~nf-md.mp3"
