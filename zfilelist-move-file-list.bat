@@ -1,3 +1,12 @@
+@echo off
+setlocal EnableDelayedExpansion
+@rem 2026-07-22-13-21-49-PM
+@rem fixed the z in md dest which breaks the batchfile
+@rem shouldve been zdestpath was desthpath.... ♣-♣
+@rem fuckin ididot
+@rem ...
+@rem ♠-♠
+@rem ...
 @rem 2026-06-23-12-00-04-PM
 @rem works with auto hot key test.ahk
 @rem zfilelist.txt from test.exe based file lists
@@ -19,10 +28,6 @@
 @rem it works
 @rem *bare*-2
 @rem results in zfilelist.txt containing:
-
-@echo off
-
-setlocal EnableDelayedExpansion
 
 @rem ================================================
 @rem 2026-07-13-14-17-25-PM
@@ -48,10 +53,13 @@ setlocal EnableDelayedExpansion
 @rem          change these
 @rem ================================================
 
-set "zsrcpath=C:\zonide\non-zip\music\"
+@rem set "zsrcpath=C:\zonide\non-zip\music\"
+set "zsrcpath=C:\vc\t\"
 echo "zsrcpath !zsrcpath!"
 
-set "zdestpath=C:\zonide\non-zip\2\"
+@rem set "zdestpath=C:\zonide\non-zip\2\"
+set "zdestpath=C:\zonide\non-zip\music-bk\2\"
+@rem set "zdestpath=C:\vc\"
 echo "zdestpath !zdestpath!"
 
 set "zfile=zfilelist.txt"
@@ -68,7 +76,7 @@ echo "zsrcfilepath !zsrcfilepath!"
 @rem and it will make it automatically if its not
 @rem without an if statement check
 
-mkdir !destpath!
+md !zdestpath!
 
 cd !zsrcpath!
 
@@ -81,6 +89,7 @@ for /f "usebackq delims=" %%a in ("!zsrcfilepath!") do (
 
 )
 
-call bool.bat
+@rem call bool.bat
+call stasis.bat
 pause
 

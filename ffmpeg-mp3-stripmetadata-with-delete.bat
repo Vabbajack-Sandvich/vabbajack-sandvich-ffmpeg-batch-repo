@@ -1,4 +1,4 @@
-@rem 2026-07-14-13-43-15-PM
+@rem 2026-07-17-17-32-45-PM
 @rem strips metadata from mp3
 @rem then deletes the file
 @rem cd C:\vc
