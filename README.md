@@ -11,9 +11,11 @@ https://github.com/Vabbajack-Sandvich/vabbajack-sandvich-ffmpeg-batch-repo/blob/
 
 https://github.com/Vabbajack-Sandvich/vabbajack-sandvich-ffmpeg-batch-repo/blob/main/vabbajack-sandvich-ffmpeg-batch-2026-07-04-05-44-30-AM.zip
 
+https://github.com/Vabbajack-Sandvich/vabbajack-sandvich-ffmpeg-batch-repo/blob/main/vabbajack-sandvich-ffmpeg-batch-2026-08-13-14-16-35-PM.zip
+
 -->
 
-https://github.com/Vabbajack-Sandvich/vabbajack-sandvich-ffmpeg-batch-repo/blob/main/vabbajack-sandvich-ffmpeg-batch-2026-08-13-14-16-35-PM.zip
+https://github.com/Vabbajack-Sandvich/vabbajack-sandvich-ffmpeg-batch-repo/blob/main/vabbajack-sandvich-ffmpeg-batch-2026-08-24-00-44-15-AM.zip
 
 This is a collection of batch files i wrote to make doing various things with Ffmpeg easy.
 
