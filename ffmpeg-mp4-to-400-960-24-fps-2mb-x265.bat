@@ -1,0 +1,22 @@
+rem 2026-11-20-07-15-44-AM
+rem changing to x265
+rem 2026-11-20-06-47-10-AM
+rem changing to 960 400
+rem 2026-11-20-06-41-39-AM
+rem changing to 1280 720
+rem 2026-11-20-06-32-12-AM
+rem changing to 24 fps
+rem ading 2 mb flag
+rem 3-7-2025
+rem this reencodes all mp4s in the directory
+rem 960 540
+
+rem chdir /D d:
+cd C:\vc
+
+for %%f in (*.mp4) do (
+rem ffmpeg -i "%%f" -b:v 2M -c:a copy -c:v libx264 -crf 20 -preset ultrafast -r 24 -vf "scale=960:400" "%%~nf-re-960-400-2mb.mp4"
+rem ffmpeg -i "%%f" -b:v 2M -c:a copy -c:v libx265 -preset ultrafast -r 24 -vf "scale=960:400" "%%~nf-re-960-400-2mb.mp4"
+ffmpeg -i "%%f" -c:a copy -c:v libx265 -preset ultrafast -r 24 -vf "scale=960:400" "%%~nf-re-960-400-2mb-x265.mp4"
+)
+
