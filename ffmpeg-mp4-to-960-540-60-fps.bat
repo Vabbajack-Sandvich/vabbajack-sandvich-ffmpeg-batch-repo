@@ -6,6 +6,6 @@ rem chdir /D d:
 cd C:\vc
 
 for %%f in (*.mp4) do (
-ffmpeg -i "%%f" -c:a copy -c:v libx264 -crf 20 -preset ultrafast -r 60 -vf "scale=960:540" "%%~nf_re%%~xf"
+ffmpeg -i "%%f" -c:a copy -c:v libx264 -crf 20 -preset ultrafast -r 60 -vf "scale=960:540" "%%~nf-re-60-fps%%~xf"
 )
 

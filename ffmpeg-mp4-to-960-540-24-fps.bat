@@ -9,6 +9,6 @@ cd C:\vc
 
 for %%f in (*.mp4) do (
 rem ffmpeg -i "%%f" -c:a copy -c:v libx264 -crf 20 -preset ultrafast -r 24 -vf "scale=960:540" "%%~nf_re%%~xf"
-ffmpeg -i "%%f" -c:a copy -c:v libx264 -crf 20 -preset ultrafast -r 24 -vf "scale=960:540" "%%~nf_re-960-540.mp4"
+ffmpeg -i "%%f" -c:a copy -c:v libx264 -crf 20 -preset ultrafast -r 24 -vf "scale=960:540" "%%~nf_re-960-540-24-fps.mp4"
 )
 

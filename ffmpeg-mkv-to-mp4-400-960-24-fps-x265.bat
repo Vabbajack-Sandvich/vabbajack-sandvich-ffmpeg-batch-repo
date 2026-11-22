@@ -21,12 +21,12 @@ md c:\vc\d
 for %%f in (*.mp4) do (
 rem ffmpeg -i "%%f" -b:v 2M -c:a copy -c:v libx264 -crf 20 -preset ultrafast -r 24 -vf "scale=960:400" "%%~nf-re-960-400.mp4"
 rem ffmpeg -i "%%f" -b:v 2M -c:a copy -c:v libx265 -preset ultrafast -r 24 -vf "scale=960:400" "%%~nf-re-960-400.mp4"
-ffmpeg -i "%%f" -c:a copy -c:v libx265 -preset ultrafast -r 24 -vf "scale=960:400" "%%~nf-re-960-400-x265.mp4"
+ffmpeg -i "%%f" -c:a copy -c:v libx265 -preset ultrafast -r 24 -vf "scale=960:400" "%%~nf-re-960-400-x265-24-fps.mp4"
 
 timeout /t 4 /nobreak
 
 rem move re encoded to temp folder
-move /y "%%~nf-re-960-400-x265.mp4" "C:\vc\t"
+move /y "%%~nf-re-960-400-x265-24-fps.mp4" "C:\vc\t"
 
 timeout /t 4 /nobreak
 
